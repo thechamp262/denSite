@@ -1,0 +1,1 @@
+$(function(){console.log("ready");var e=$("nav").find("ul").firstChild;console.log(e)});

@@ -1,0 +1,89 @@
+/* comment box begins=======================================
+ * =================================
+ */
+
+#user_comments
+{
+	font-size: 1.4em;
+	margin-left: 7px;
+}
+#comments1
+{
+	width: 200px;
+	height: 105px;
+	margin-top: 10px;
+}
+#comments form
+{
+	width: 240px;
+	height: 225px;
+	background-color: #ceba6e;
+	box-shadow: 1px 1px 10px #4f4e4e;
+	-moz-box-shadow: 1px 1px 10px #4f4e4e;
+	-webkit-box-shadow: 1px 1px 10px #4f4e4e;
+	border-radius: 10px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+#comments ul
+{
+	list-style: none;
+	margin-left: 10px;
+}
+#comments ul li
+{
+	margin-top: 15px;
+}
+#comments label
+{
+	font-size:  1.4em;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-right: 10px;
+	color: #fff;
+}
+#comments h2
+{
+	font-weight: bold;
+	font-size: 3em;
+}
+.comment_input
+{
+	width: 100px;
+	height: 15px;
+}
+#submit
+{
+	background: -webkit-gradient(linear, 0 0, 0 100%, from(#c8a651), to(#e6cc88));
+	background: -moz-linear-gradient(top, #c8a651, #e6cc88);
+	width: 80px;
+	height: 36px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 1.4em;
+	border-color: #c4a350;
+	border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+/* comment box ends=======================================
+ * =================================
+ */
+
+  <form action="" method="get"> 
+            <ul>                             
+                <li>
+                     <textarea name="comments" id="comments1" placeholder="Enter Your Comments"></textarea/>
+                </li>
+                
+                 <li>
+                    <label for="yourName">Your Name:</label>
+                    <input type="text" name="yourName" class="comment_input" placeholder="Jane Doe"/>
+                </li>
+                
+                <li>
+                      <input type="submit" id="submit"/> 
+                </li>
+            </ul>   
+        </form>
